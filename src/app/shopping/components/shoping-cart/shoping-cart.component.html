@@ -24,7 +24,7 @@
               <td class="text-left">
                 <product-quantity [product]="item" [shopping-cart]="cart" [msg]="null"></product-quantity>
               </td>
-              <td class="text-right">{{item.totalPrice | currency:'INR':true}}</td>
+              <td class="text-right">{{item.totalPrice | currency:'EUR':true}}</td>
             </tr>
           </tbody>
           <tfoot>
@@ -32,7 +32,7 @@
               <th>Total Price: </th>
               <th></th>
               <th></th>
-              <th class="text-right">{{cart.totalPrice | currency:'INR':true}}</th>
+              <th class="text-right">{{cart.totalPrice | currency:'EUR':true}}</th>
             </tr>
             <tr>
 
