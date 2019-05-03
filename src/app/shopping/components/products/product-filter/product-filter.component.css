@@ -2,3 +2,16 @@
   top: 80px;
   margin-bottom: 20px;
 }
+a:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  transition: 0.5s all;
+  backface-visibility: hidden;
+}
+.active:hover {
+  -ms-transform: unset; /* IE 9 */
+  -webkit-transform: unset; /* Safari 3-8 */
+  transform: unset; 
+  transition: unset;
+}

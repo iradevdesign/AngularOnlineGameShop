@@ -24,6 +24,7 @@ body {
   background-color: #4C69BA;
   background-image: linear-gradient(#4C69BA, #3B55A0);
   outline: none;
+  cursor: pointer;
 }
 
 .facebook:hover, .facebook:focus {
@@ -34,6 +35,7 @@ body {
 .google {
   background: #DD4B39;
   background-image: linear-gradient(#DD4B39, #c21a07);
+  cursor: pointer;
 }
 
 .google:hover, .google:focus {

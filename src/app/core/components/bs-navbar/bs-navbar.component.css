@@ -18,3 +18,12 @@ img:hover {
   color: black;
   opacity: 1;
 }
+.mr-auto {
+  margin-right: unset!important;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.badge {
+  background-image: linear-gradient(to right, #50C9C3, #96DEDA);
+}
